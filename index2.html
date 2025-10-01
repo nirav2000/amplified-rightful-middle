@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tense Matching Game</title>
+    <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="switch.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tense Matching Game</h1>
+        <p>Drag the correct tense name onto the matching sentence.</p>
+      
+       <!-- Rounded Toggle Switches -->
+        <div class="settings">
+            <label class="switch">
+                <input type="checkbox" id="toggle-timer" checked> <p>Enable Timer</p>
+                <span class="slider round"></span>
+            </label>
+            <label class="switch">
+                <input type="checkbox" id="toggle-multiplayer" checked> <p>Enable Multiplayer</p>
+                <span class="slider round"></span>
+            </label>
+        </div>
+
+      
+        <p id="timer">Time Left: <span id="time">60</span> seconds</p>
+        <p id="turn"></p>
+
+        <div class="game-container">
+            <div id="sentences-container"></div>
+            <div id="tenses-container"></div>
+        </div>
+
+        <button onclick="checkAnswers()">Check Answers</button>
+        <p id="score"></p>
+        <p id="correct-answers"></p>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+#sentences-container, #tenses-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.draggable {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: grab;
+    width: 200px;
+    text-align: center;
+}
+
+.droppable {
+    padding: 10px;
+    background-color: #ddd;
+    border: 2px dashed black;
+    width: 250px;
+    min-height: 40px;
+}

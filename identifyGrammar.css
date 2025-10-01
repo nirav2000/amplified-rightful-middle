@@ -1,0 +1,14 @@
+.sentence { font-size: 18px; line-height: 1.6; }
+        .word { padding: 3px; transition: background 0.3s ease; cursor: pointer; }
+        .pronoun { background-color: lightblue; }
+        .verb { background-color: lightgreen; }
+        .noun { background-color: lightcoral; }
+        .article { background-color: lightyellow; }
+        .adjective { background-color: lightpink; }
+        .adverb { background-color: lightgray; }
+        .preposition { background-color: lightcyan; }
+        .conjunction { background-color: lightgoldenrodyellow; }
+        .determiner { background-color: lightseagreen; }
+        .unknown { background-color: lightgray; }
+        #word-input { padding: 8px; font-size: 16px; margin: 10px 0; }
+        #result { font-size: 18px; font-weight: bold; margin-top: 10px; }

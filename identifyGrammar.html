@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammar Highlighter</title>
+    <script src="https://unpkg.com/compromise"></script> <!-- NLP Library -->
+    <link rel="stylesheet" href="identifyGrammar.css">
+</head>
+<body>
+
+    <h2>Grammar Highlighter</h2>
+    
+    <!-- Input Box for Word Checking -->
+    <label for="word-input">Enter a word to check its grammar:</label>
+    <input type="text" id="word-input" placeholder="Type a word..." oninput="checkWord()">
+    
+    <!-- Display the result -->
+    <p id="result">Grammar Type: <span id="grammar-type">---</span></p>
+    
+    <div id="output"></div>
+  
+  </body>
+  <script  src="identifyGrammar.js"></script>
+</html>
